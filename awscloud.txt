@@ -36,7 +36,7 @@
 6. Note the Public IP Address
    Write down or copy the Public IPv4 address, as this is the IP address you will need for further steps like pinging and SSH access.
 
-   in this public ip address is : 3.88.186.47 (its refferd screenshot-1.1.png)
+   in this public ip address is : 54.208.5.11 (its refferd screenshot-1.1.png)
 
 ** next we have ping public ip of aws cloud instance **
 
@@ -58,9 +58,9 @@ Step 3: Find the Public IP of the EC2 Instance
 Step 4: Ping the EC2 Instance from Kali Linux
     Open a terminal in Kali Linux.
     Use the ping command followed by the public IP of your EC2 instance
-#ping <Public-IP>
+#ping <Public-IP> 54.208.5.11
     in this case we have a ip then we use it 
-#(ping  3.88.186.47)
+#(ping  )
 (screenshot-5)
 
 **To log in to your AWS EC2 VM via SSH using Kali Linux, follow these steps:
